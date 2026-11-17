@@ -1,10 +1,10 @@
 # Text Processing
 
-#### Project Build Status: ![Project Build Status](https://github.com/pragmatic-systems/Pragsys.Playground.Parsing/actions/workflows/dotnet.yml/badge.svg)
+#### Project Build Status: ![Project Build Status](https://github.com/pragmatic-systems/Pragmatic.Playground.Parsing/actions/workflows/dotnet.yml/badge.svg)
 
 #### Running Solution
 
-> git clone https://github.com/pragmatic-systems/Pragsys.Playground.Parsing.git
+> git clone https://github.com/pragmatic-systems/Pragmatic.Playground.Parsing.git
 > 
 > cd TextProcessing
 > 
@@ -15,7 +15,7 @@
 This is a small research project to go along with a series of blog posts where I build a parser from scratch. It covers Regex, two phase parsing (Lexing/Tokenising and Expression Parsing), combinatorial parsers, scannerless parsing and using [Sprache](https://github.com/sprache/Sprache). It is written in C# .Net 5.0 with the end result being a simple two phase, multi language expression parser.
 
 <p align="center">
-	<img src="https://github.com/pragmatic-systems/Pragsys.Playground.Parsing/blob/master/assets/multi-language-parsing.png?raw=true" alt="Multi Language Parsing" width="80%"/>
+	<img src="https://github.com/pragmatic-systems/Pragmatic.Playground.Parsing/blob/master/assets/multi-language-parsing.png?raw=true" alt="Multi Language Parsing" width="80%"/>
 </p>
 
 It's now a playground for Lexing / Parsing and text processing in general.
@@ -53,11 +53,11 @@ Instead of using an array of pre-parsed Tokens we're going to use the string/Cha
 
 ## Parser Implementations
 
-### [Object Orientated](https://github.com/pragmatic-systems/Pragsys.Playground.Parsing/tree/master/TextProcessing/OO)
+### [Object Orientated](https://github.com/pragmatic-systems/Pragmatic.Playground.Parsing/tree/master/TextProcessing/OO)
 A simple tokeniser and parser system implemented using Interfaces and an Object Orientated style.
 
-### [Functional](https://github.com/pragmatic-systems/Pragsys.Playground.Parsing/tree/master/TextProcessing/Functional)
+### [Functional](https://github.com/pragmatic-systems/Pragmatic.Playground.Parsing/tree/master/TextProcessing/Functional)
 A simple tokeniser and parser system implemented using Delegates and monads in a functional style.
 
-### [Scannerless in Sprache](https://github.com/pragmatic-systems/Pragsys.Playground.Parsing/tree/master/TextProcessing/SpracheParsers)
+### [Scannerless in Sprache](https://github.com/pragmatic-systems/Pragmatic.Playground.Parsing/tree/master/TextProcessing/SpracheParsers)
 An implementation of the demo parsers written in [Sprache](https://github.com/sprache/Sprache), the scannerless C# functional parsing library.
